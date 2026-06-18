@@ -1,0 +1,27 @@
+This submission is incomplete
+I am having problems as I am new to all this(including latex,makefile).
+I have only submitted my server code written in C language in the file servercode.c for now.
+The server is fully complete(without the POST)
+It serves the file home.txt(at path "/") and file.txt(at path "local/file.txt")
+for client use "echo GET /file.txt HTTP/1.1"|nc localhost 3490
+or echo "GET / HTTP/1.1"|nc localhost 3490
+The comments in the code show pretty clearly what the motive of that piece of code is.
+
+The below written stuff is incomplete
+Errors I got
+1.vs code showing errors but no errors on compilation
+    checked gcc package
+    tried compiling- no error
+    so error because of intellisense extension
+    changed configuration from c17 to gnu17
+
+reference: beej guide(a major chunk of code looks same because of that)
+chatgptusage: to understand the signal handler, struct sigaction and fork used in beeg
+
+why #define
+easy to change values
+why 3490
+because beej used it, just liked it(no particular reason), not below 1024
+
+fork failure is shown
+shows which client suffered

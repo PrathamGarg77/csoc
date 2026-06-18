@@ -1,0 +1,10 @@
+# Deliverables
+
+Place your Week 1 HTTP server submission in this folder root.
+
+Expected items:
+
+- C source/header files for the HTTP server
+- Makefile
+- Report PDF (LaTeX output)
+- User details in `User.sh`
